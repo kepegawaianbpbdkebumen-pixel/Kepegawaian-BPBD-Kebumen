@@ -1,0 +1,6 @@
+{
+  "name": "SI_AMIN_LEGA v3.0 - BPBD Kebumen",
+  "description": "Sistem Pengingat KGB, KP, Pensiun dan Monitoring Layanan Cuti ASN Berbasis AI Native - BPBD Kabupaten Kebumen",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

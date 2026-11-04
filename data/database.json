@@ -1,0 +1,879 @@
+{
+  "pengguna": [
+    {
+      "id": "USR-001",
+      "email": "kepegawaianbpbdkebumen@gmail.com",
+      "nama": "Administrator Kepegawaian BPBD Kebumen",
+      "nip": "198309192008042001",
+      "peran": "Admin Kepegawaian OPD",
+      "statusAktif": true,
+      "terakhirLogin": "2026-11-04 13:47:34"
+    },
+    {
+      "id": "USR-002",
+      "email": "siti.nurjanah@kebumenkab.go.id",
+      "nama": "Siti Nurjanah, S.A.P.",
+      "nip": "198309192008042001",
+      "peran": "Admin Kepegawaian OPD",
+      "statusAktif": true,
+      "terakhirLogin": "2026-11-04 07:45:00"
+    },
+    {
+      "id": "USR-003",
+      "email": "haryono.bpbd@kebumenkab.go.id",
+      "nama": "Drs. H. Haryono, M.Si.",
+      "nip": "196805141994031004",
+      "peran": "Pimpinan",
+      "statusAktif": true,
+      "terakhirLogin": "2026-11-03 16:30:00"
+    },
+    {
+      "id": "USR-004",
+      "email": "budi.raharjo@kebumenkab.go.id",
+      "nama": "Budi Raharjo, S.T., M.Eng.",
+      "nip": "198007152006041008",
+      "peran": "Atasan Langsung",
+      "statusAktif": true,
+      "terakhirLogin": "2026-11-04 08:10:00"
+    },
+    {
+      "id": "USR-005",
+      "email": "rudi.hartono@kebumenkab.go.id",
+      "nama": "Rudi Hartono, S.Kom.",
+      "nip": "199102142019031006",
+      "peran": "Pegawai",
+      "statusAktif": true,
+      "terakhirLogin": "2026-11-03 14:00:00"
+    },
+    {
+      "id": "USR-006",
+      "email": "inspektorat@kebumenkab.go.id",
+      "nama": "Inspektorat Daerah Kab. Kebumen",
+      "peran": "Auditor",
+      "statusAktif": true,
+      "terakhirLogin": "2026-11-02 09:00:00"
+    }
+  ],
+  "parameters": {
+    "ambangKGB": [
+      75,
+      60,
+      30,
+      15
+    ],
+    "ambangKP": [
+      120,
+      90,
+      60,
+      30
+    ],
+    "ambangPensiun": [
+      365,
+      180,
+      90,
+      30
+    ],
+    "ambangPPPK": [
+      120,
+      90,
+      60,
+      30
+    ],
+    "bupPerJabatan": {
+      "Administrasi": 58,
+      "Fungsional Pertama/Muda/Terampil": 58,
+      "Fungsional Madya": 60,
+      "Pimpinan Tinggi": 60,
+      "Fungsional Utama": 65,
+      "PPPK": 58
+    },
+    "periodeKP": [
+      "02-01",
+      "04-01",
+      "06-01",
+      "08-01",
+      "10-01",
+      "12-01"
+    ],
+    "kuotaCutiTahunan": 12,
+    "maksPenangguhanCuti": 6,
+    "namaInstansi": "Badan Penanggulangan Bencana Daerah",
+    "opd": "BPBD Kabupaten Kebumen",
+    "kabupaten": "Kabupaten Kebumen, Jawa Tengah"
+  },
+  "hariLibur": [
+    {
+      "tanggal": "2026-01-01",
+      "keterangan": "Tahun Baru 2026 Masehi",
+      "jenis": "Libur Nasional"
+    },
+    {
+      "tanggal": "2026-01-16",
+      "keterangan": "Isra Mi'raj Nabi Muhammad SAW",
+      "jenis": "Libur Nasional"
+    },
+    {
+      "tanggal": "2026-02-17",
+      "keterangan": "Tahun Baru Imlek 2577 Kongzili",
+      "jenis": "Libur Nasional"
+    },
+    {
+      "tanggal": "2026-03-21",
+      "keterangan": "Hari Suci Nyepi Tahun Baru Saka 1948",
+      "jenis": "Libur Nasional"
+    },
+    {
+      "tanggal": "2026-03-20",
+      "keterangan": "Hari Raya Idul Fitri 1447 H (Hari 1)",
+      "jenis": "Libur Nasional"
+    },
+    {
+      "tanggal": "2026-03-21",
+      "keterangan": "Hari Raya Idul Fitri 1447 H (Hari 2)",
+      "jenis": "Libur Nasional"
+    },
+    {
+      "tanggal": "2026-03-23",
+      "keterangan": "Cuti Bersama Idul Fitri 1447 H",
+      "jenis": "Cuti Bersama"
+    },
+    {
+      "tanggal": "2026-03-24",
+      "keterangan": "Cuti Bersama Idul Fitri 1447 H",
+      "jenis": "Cuti Bersama"
+    },
+    {
+      "tanggal": "2026-04-03",
+      "keterangan": "Wafat Yesus Kristus",
+      "jenis": "Libur Nasional"
+    },
+    {
+      "tanggal": "2026-05-01",
+      "keterangan": "Hari Buruh Internasional",
+      "jenis": "Libur Nasional"
+    },
+    {
+      "tanggal": "2026-05-14",
+      "keterangan": "Kenaikan Yesus Kristus",
+      "jenis": "Libur Nasional"
+    },
+    {
+      "tanggal": "2026-05-31",
+      "keterangan": "Hari Raya Waisak 2570 BE",
+      "jenis": "Libur Nasional"
+    },
+    {
+      "tanggal": "2026-05-27",
+      "keterangan": "Hari Raya Idul Adha 1447 H",
+      "jenis": "Libur Nasional"
+    },
+    {
+      "tanggal": "2026-06-16",
+      "keterangan": "Tahun Baru Islam 1448 H",
+      "jenis": "Libur Nasional"
+    },
+    {
+      "tanggal": "2026-08-17",
+      "keterangan": "Hari Kemerdekaan RI Ke-81",
+      "jenis": "Libur Nasional"
+    },
+    {
+      "tanggal": "2026-08-25",
+      "keterangan": "Maulid Nabi Muhammad SAW",
+      "jenis": "Libur Nasional"
+    },
+    {
+      "tanggal": "2026-12-25",
+      "keterangan": "Hari Raya Natal",
+      "jenis": "Libur Nasional"
+    },
+    {
+      "tanggal": "2026-12-24",
+      "keterangan": "Cuti Bersama Hari Raya Natal",
+      "jenis": "Cuti Bersama"
+    }
+  ],
+  "pegawai": [
+    {
+      "id": "PEG-001",
+      "nip": "196805141994031004",
+      "nik": "3305121405680001",
+      "nama": "Drs. H. Haryono, M.Si.",
+      "jenisKepegawaian": "PNS",
+      "tanggalLahir": "1968-05-14",
+      "tmtCpns": "1994-03-01",
+      "pangkatGolongan": "Pembina Utama Muda / IV/c",
+      "jabatan": "Kepala Pelaksana BPBD",
+      "jenisJabatan": "Pimpinan Tinggi",
+      "unitKerja": "Pimpinan BPBD",
+      "atasanLangsungId": null,
+      "email": "haryono.bpbd@kebumenkab.go.id",
+      "nomorWhatsApp": "081228192831",
+      "statusAktif": true,
+      "tmtPangkatTerakhir": "2023-04-01",
+      "tmtKgbTerakhir": "2025-01-01",
+      "gajiPokokTerakhir": 5850000,
+      "fotoUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "PEG-002",
+      "nip": "197403121998031003",
+      "nik": "3305111203740002",
+      "nama": "Udy Cahyono, S.Sos., M.Acc.",
+      "jenisKepegawaian": "PNS",
+      "tanggalLahir": "1974-03-12",
+      "tmtCpns": "1998-03-01",
+      "pangkatGolongan": "Pembina Tk. I / IV/b",
+      "jabatan": "Sekretaris BPBD",
+      "jenisJabatan": "Administrasi",
+      "unitKerja": "Sekretariat BPBD",
+      "atasanLangsungId": "PEG-001",
+      "atasanLangsungNama": "Drs. H. Haryono, M.Si.",
+      "email": "udy.cahyono@kebumenkab.go.id",
+      "nomorWhatsApp": "081391283741",
+      "statusAktif": true,
+      "tmtPangkatTerakhir": "2022-10-01",
+      "tmtKgbTerakhir": "2025-04-01",
+      "gajiPokokTerakhir": 5120000,
+      "fotoUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "PEG-003",
+      "nip": "198309192008042001",
+      "nik": "3305105909830003",
+      "nama": "Siti Nurjanah, S.A.P.",
+      "jenisKepegawaian": "PNS",
+      "tanggalLahir": "1983-09-19",
+      "tmtCpns": "2008-04-01",
+      "pangkatGolongan": "Penata Tk. I / III/d",
+      "jabatan": "Kasubbag Kepegawaian dan Umum",
+      "jenisJabatan": "Administrasi",
+      "unitKerja": "Subbag Kepegawaian & Umum",
+      "atasanLangsungId": "PEG-002",
+      "atasanLangsungNama": "Udy Cahyono, S.Sos., M.Acc.",
+      "email": "siti.nurjanah@kebumenkab.go.id",
+      "nomorWhatsApp": "081290887123",
+      "statusAktif": true,
+      "tmtPangkatTerakhir": "2023-04-01",
+      "tmtKgbTerakhir": "2025-01-01",
+      "gajiPokokTerakhir": 4180000,
+      "fotoUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "PEG-004",
+      "nip": "198007152006041008",
+      "nik": "3305081507800005",
+      "nama": "Budi Raharjo, S.T., M.Eng.",
+      "jenisKepegawaian": "PNS",
+      "tanggalLahir": "1980-07-15",
+      "tmtCpns": "2006-04-01",
+      "pangkatGolongan": "Pembina / IV/a",
+      "jabatan": "Kepala Seksi Pencegahan dan Kesiapsiagaan",
+      "jenisJabatan": "Administrasi",
+      "unitKerja": "Seksi Pencegahan & Kesiapsiagaan",
+      "atasanLangsungId": "PEG-001",
+      "atasanLangsungNama": "Drs. H. Haryono, M.Si.",
+      "email": "budi.raharjo@kebumenkab.go.id",
+      "nomorWhatsApp": "081227654321",
+      "statusAktif": true,
+      "tmtPangkatTerakhir": "2022-04-01",
+      "tmtKgbTerakhir": "2025-02-01",
+      "gajiPokokTerakhir": 4560000,
+      "fotoUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "PEG-005",
+      "nip": "198204202008011012",
+      "nik": "3305092004820004",
+      "nama": "Heri Purwanto, S.Kep., Ners.",
+      "jenisKepegawaian": "PNS",
+      "tanggalLahir": "1982-04-20",
+      "tmtCpns": "2008-01-01",
+      "pangkatGolongan": "Penata Tk. I / III/d",
+      "jabatan": "Kepala Seksi Kedaruratan dan Logistik",
+      "jenisJabatan": "Administrasi",
+      "unitKerja": "Seksi Kedaruratan & Logistik",
+      "atasanLangsungId": "PEG-001",
+      "atasanLangsungNama": "Drs. H. Haryono, M.Si.",
+      "email": "heri.purwanto@kebumenkab.go.id",
+      "nomorWhatsApp": "081328901234",
+      "statusAktif": true,
+      "tmtPangkatTerakhir": "2022-12-01",
+      "tmtKgbTerakhir": "2025-01-01",
+      "gajiPokokTerakhir": 4210000,
+      "fotoUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "PEG-006",
+      "nip": "199102142019031006",
+      "nik": "3305141402910002",
+      "nama": "Rudi Hartono, S.Kom.",
+      "jenisKepegawaian": "PNS",
+      "tanggalLahir": "1991-02-14",
+      "tmtCpns": "2019-03-01",
+      "pangkatGolongan": "Penata Muda Tk. I / III/b",
+      "jabatan": "Pranata Penanggulangan Bencana Ahli Pertama",
+      "jenisJabatan": "Fungsional Pertama/Muda/Terampil",
+      "unitKerja": "Seksi Pencegahan & Kesiapsiagaan",
+      "atasanLangsungId": "PEG-004",
+      "atasanLangsungNama": "Budi Raharjo, S.T., M.Eng.",
+      "email": "rudi.hartono@kebumenkab.go.id",
+      "nomorWhatsApp": "085729112233",
+      "statusAktif": true,
+      "tmtPangkatTerakhir": "2023-04-01",
+      "tmtKgbTerakhir": "2024-11-20",
+      "gajiPokokTerakhir": 3250000,
+      "fotoUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "PEG-007",
+      "nip": "198511282009022004",
+      "nik": "3305136811850006",
+      "nama": "Dian Permatasari, S.T.",
+      "jenisKepegawaian": "PNS",
+      "tanggalLahir": "1985-11-28",
+      "tmtCpns": "2009-02-01",
+      "pangkatGolongan": "Penata / III/c",
+      "jabatan": "Kepala Seksi Rehabilitasi dan Rekonstruksi",
+      "jenisJabatan": "Administrasi",
+      "unitKerja": "Seksi Rehabilitasi & Rekonstruksi",
+      "atasanLangsungId": "PEG-001",
+      "atasanLangsungNama": "Drs. H. Haryono, M.Si.",
+      "email": "dian.permatasari@kebumenkab.go.id",
+      "nomorWhatsApp": "081234998877",
+      "statusAktif": true,
+      "tmtPangkatTerakhir": "2022-12-01",
+      "tmtKgbTerakhir": "2025-03-01",
+      "gajiPokokTerakhir": 3890000,
+      "fotoUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "PEG-008",
+      "nip": "197901102005011009",
+      "nik": "3305011001790003",
+      "nama": "Joko Susanto, S.Sos.",
+      "jenisKepegawaian": "PNS",
+      "tanggalLahir": "1979-01-10",
+      "tmtCpns": "2005-01-01",
+      "pangkatGolongan": "Penata Tk. I / III/d",
+      "jabatan": "Analis Mitigasi Bencana",
+      "jenisJabatan": "Fungsional Pertama/Muda/Terampil",
+      "unitKerja": "Seksi Kedaruratan & Logistik",
+      "atasanLangsungId": "PEG-005",
+      "atasanLangsungNama": "Heri Purwanto, S.Kep., Ners.",
+      "email": "joko.susanto@kebumenkab.go.id",
+      "nomorWhatsApp": "081398765432",
+      "statusAktif": true,
+      "tmtPangkatTerakhir": "2021-04-01",
+      "tmtKgbTerakhir": "2024-08-01",
+      "gajiPokokTerakhir": 4120000,
+      "fotoUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "PEG-009",
+      "nip": "196812031992031007",
+      "nik": "3305070312680001",
+      "nama": "Sudirman, S.IP.",
+      "jenisKepegawaian": "PNS",
+      "tanggalLahir": "1968-12-03",
+      "tmtCpns": "1992-03-01",
+      "pangkatGolongan": "Penata Tk. I / III/d",
+      "jabatan": "Pengelola Logistik Bencana",
+      "jenisJabatan": "Administrasi",
+      "unitKerja": "Seksi Kedaruratan & Logistik",
+      "atasanLangsungId": "PEG-005",
+      "atasanLangsungNama": "Heri Purwanto, S.Kep., Ners.",
+      "email": "sudirman@kebumenkab.go.id",
+      "nomorWhatsApp": "081229871122",
+      "statusAktif": true,
+      "tmtPangkatTerakhir": "2020-04-01",
+      "tmtKgbTerakhir": "2025-01-01",
+      "gajiPokokTerakhir": 4350000,
+      "fotoUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "PEG-010",
+      "nip": "199009122023211005",
+      "nik": "3305041209900004",
+      "nama": "Ahmad Fauzi, S.E.",
+      "jenisKepegawaian": "PPPK",
+      "tanggalLahir": "1990-09-12",
+      "pangkatGolongan": "Golongan X (Ahli Pertama)",
+      "jabatan": "Penata Layanan Operasional TRC",
+      "jenisJabatan": "PPPK",
+      "unitKerja": "Unit Pelaksana Teknis / TRC BPBD",
+      "atasanLangsungId": "PEG-005",
+      "atasanLangsungNama": "Heri Purwanto, S.Kep., Ners.",
+      "email": "ahmad.fauzi@kebumenkab.go.id",
+      "nomorWhatsApp": "085876543210",
+      "statusAktif": true,
+      "tmtPangkatTerakhir": "2023-06-01",
+      "tmtKgbTerakhir": "2025-06-01",
+      "gajiPokokTerakhir": 3203600,
+      "tmtPerjanjianSelesai": "2027-05-31",
+      "fotoUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "PEG-011",
+      "nip": "199201052023212003",
+      "nik": "3305064501920002",
+      "nama": "Lestari Handayani, S.Tr.Sos.",
+      "jenisKepegawaian": "PPPK",
+      "tanggalLahir": "1992-01-05",
+      "pangkatGolongan": "Golongan IX (Ahli Pertama)",
+      "jabatan": "Pengelola Pengadaan Logistik Darurat",
+      "jenisJabatan": "PPPK",
+      "unitKerja": "Seksi Kedaruratan & Logistik",
+      "atasanLangsungId": "PEG-005",
+      "atasanLangsungNama": "Heri Purwanto, S.Kep., Ners.",
+      "email": "lestari.handayani@kebumenkab.go.id",
+      "nomorWhatsApp": "081548902134",
+      "statusAktif": true,
+      "tmtPangkatTerakhir": "2023-04-01",
+      "tmtKgbTerakhir": "2025-04-01",
+      "gajiPokokTerakhir": 3125000,
+      "tmtPerjanjianSelesai": "2026-12-31",
+      "fotoUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "PEG-012",
+      "nip": "199608172022032005",
+      "nik": "3305025708960001",
+      "nama": "Rina Agustina, A.Md.",
+      "jenisKepegawaian": "PNS",
+      "tanggalLahir": "1996-08-17",
+      "tmtCpns": "2022-03-01",
+      "pangkatGolongan": "Pengatur / II/c",
+      "jabatan": "Pengadministrasi Kepegawaian",
+      "jenisJabatan": "Administrasi",
+      "unitKerja": "Subbag Kepegawaian & Umum",
+      "atasanLangsungId": "PEG-003",
+      "atasanLangsungNama": "Siti Nurjanah, S.A.P.",
+      "email": "rina.agustina@kebumenkab.go.id",
+      "nomorWhatsApp": "085711224455",
+      "statusAktif": true,
+      "tmtPangkatTerakhir": "2024-04-01",
+      "tmtKgbTerakhir": "2024-12-15",
+      "gajiPokokTerakhir": 2680000,
+      "fotoUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80"
+    }
+  ],
+  "riwayatKGB": [
+    {
+      "id": "KGB-001",
+      "nip": "199102142019031006",
+      "tmt": "2024-11-20",
+      "nomorSk": "822.2/084/BPBD/KGB/2024",
+      "tanggalSk": "2024-10-25",
+      "gajiPokok": 3250000,
+      "masaKerjaTahun": 5,
+      "masaKerjaBulan": 8,
+      "pejabatPenetap": "Kepala BKPSDM Kabupaten Kebumen",
+      "tautanBerkas": "/sk/kgb_rudi_2024.pdf",
+      "catatan": "KGB berkala 2 tahunan PNS formasi 2019"
+    },
+    {
+      "id": "KGB-002",
+      "nip": "197901102005011009",
+      "tmt": "2024-08-01",
+      "nomorSk": "822.2/045/BPBD/KGB/2024",
+      "tanggalSk": "2024-07-10",
+      "gajiPokok": 4120000,
+      "masaKerjaTahun": 19,
+      "masaKerjaBulan": 7,
+      "pejabatPenetap": "Kepala BKPSDM Kabupaten Kebumen",
+      "tautanBerkas": "/sk/kgb_joko_2024.pdf",
+      "catatan": "SK KGB lama. Menunggu usulan periode berikutnya yang terlambat."
+    },
+    {
+      "id": "KGB-003",
+      "nip": "199608172022032005",
+      "tmt": "2024-12-15",
+      "nomorSk": "822.2/102/BPBD/KGB/2024",
+      "tanggalSk": "2024-11-28",
+      "gajiPokok": 2680000,
+      "masaKerjaTahun": 2,
+      "masaKerjaBulan": 9,
+      "pejabatPenetap": "Kepala BKPSDM Kabupaten Kebumen",
+      "tautanBerkas": "/sk/kgb_rina_2024.pdf"
+    }
+  ],
+  "riwayatPangkat": [
+    {
+      "id": "KP-001",
+      "nip": "198511282009022004",
+      "pangkatGolongan": "Penata / III/c",
+      "tmt": "2022-12-01",
+      "nomorSk": "823.3/095/BKPSDM/2022",
+      "tanggalSk": "2022-11-15",
+      "pejabatPenetap": "Bupati Kebumen",
+      "tautanBerkas": "/sk/kp_dian_2022.pdf"
+    },
+    {
+      "id": "KP-002",
+      "nip": "198007152006041008",
+      "pangkatGolongan": "Pembina / IV/a",
+      "tmt": "2022-04-01",
+      "nomorSk": "823.4/012/GUB-JTG/2022",
+      "tanggalSk": "2022-03-20",
+      "pejabatPenetap": "Gubernur Jawa Tengah",
+      "tautanBerkas": "/sk/kp_budi_2022.pdf"
+    }
+  ],
+  "saldoCuti": [
+    {
+      "nip": "196805141994031004",
+      "tahun": 2026,
+      "hak": 12,
+      "terpakai": 3,
+      "ditangguhkan": 4,
+      "sisa": 13
+    },
+    {
+      "nip": "197403121998031003",
+      "tahun": 2026,
+      "hak": 12,
+      "terpakai": 2,
+      "ditangguhkan": 0,
+      "sisa": 10
+    },
+    {
+      "nip": "198309192008042001",
+      "tahun": 2026,
+      "hak": 12,
+      "terpakai": 4,
+      "ditangguhkan": 3,
+      "sisa": 11
+    },
+    {
+      "nip": "198007152006041008",
+      "tahun": 2026,
+      "hak": 12,
+      "terpakai": 5,
+      "ditangguhkan": 2,
+      "sisa": 9
+    },
+    {
+      "nip": "198204202008011012",
+      "tahun": 2026,
+      "hak": 12,
+      "terpakai": 1,
+      "ditangguhkan": 6,
+      "sisa": 17
+    },
+    {
+      "nip": "199102142019031006",
+      "tahun": 2026,
+      "hak": 12,
+      "terpakai": 3,
+      "ditangguhkan": 2,
+      "sisa": 11
+    },
+    {
+      "nip": "198511282009022004",
+      "tahun": 2026,
+      "hak": 12,
+      "terpakai": 6,
+      "ditangguhkan": 0,
+      "sisa": 6
+    },
+    {
+      "nip": "197901102005011009",
+      "tahun": 2026,
+      "hak": 12,
+      "terpakai": 2,
+      "ditangguhkan": 0,
+      "sisa": 10
+    },
+    {
+      "nip": "196812031992031007",
+      "tahun": 2026,
+      "hak": 12,
+      "terpakai": 0,
+      "ditangguhkan": 5,
+      "sisa": 17
+    },
+    {
+      "nip": "199009122023211005",
+      "tahun": 2026,
+      "hak": 12,
+      "terpakai": 4,
+      "ditangguhkan": 0,
+      "sisa": 8
+    },
+    {
+      "nip": "199201052023212003",
+      "tahun": 2026,
+      "hak": 12,
+      "terpakai": 2,
+      "ditangguhkan": 0,
+      "sisa": 10
+    },
+    {
+      "nip": "199608172022032005",
+      "tahun": 2026,
+      "hak": 12,
+      "terpakai": 2,
+      "ditangguhkan": 0,
+      "sisa": 10
+    }
+  ],
+  "cuti": [
+    {
+      "id": "CUTI-2026-001",
+      "nip": "199102142019031006",
+      "namaPegawai": "Rudi Hartono, S.Kom.",
+      "jabatan": "Pranata Penanggulangan Bencana Ahli Pertama",
+      "unitKerja": "Seksi Pencegahan & Kesiapsiagaan",
+      "jenis": "Tahunan",
+      "tanggalMulai": "2026-11-10",
+      "tanggalSelesai": "2026-11-12",
+      "jumlahHariKerja": 3,
+      "alasan": "Keperluan keluarga dan mendampingi orang tua periksa kesehatan",
+      "status": "Menunggu Verifikasi Atasan",
+      "nomorEletter": "e-Letter/BPBD/CUTI/2026/XI/089",
+      "tautanEletter": "/dokumen/cuti_rudi_eletter.pdf",
+      "dokumenLampiran": "Surat permohonan e-letter resmi terbitan 3 November 2026",
+      "verifikasiAi": {
+        "validitasFormat": true,
+        "kecocokanNomor": true,
+        "tumpangTindih": false,
+        "catatan": "Dokumen e-letter valid. Tanggal 10-12 Nov 2026 bertepatan hari kerja Selasa-Kamis tanpa hari libur nasional.",
+        "confidence": 0.98
+      },
+      "waktuPengajuan": "2026-11-03 14:20:00"
+    },
+    {
+      "id": "CUTI-2026-002",
+      "nip": "198511282009022004",
+      "namaPegawai": "Dian Permatasari, S.T.",
+      "jabatan": "Kepala Seksi Rehabilitasi dan Rekonstruksi",
+      "unitKerja": "Seksi Rehabilitasi & Rekonstruksi",
+      "jenis": "Tahunan",
+      "tanggalMulai": "2026-11-16",
+      "tanggalSelesai": "2026-11-18",
+      "jumlahHariKerja": 3,
+      "alasan": "Acara wisuda saudara di Yogyakarta",
+      "status": "Diverifikasi Atasan",
+      "catatanAtasan": "Disetujui. Tugas sementara diampu oleh staf fungsional.",
+      "nomorEletter": "e-Letter/BPBD/CUTI/2026/XI/092",
+      "tautanEletter": "/dokumen/cuti_dian_eletter.pdf",
+      "verifikasiAi": {
+        "validitasFormat": true,
+        "kecocokanNomor": true,
+        "tumpangTindih": false,
+        "catatan": "Format sesuai standar e-Letter Kabupaten Kebumen.",
+        "confidence": 0.95
+      },
+      "pemroses": "Drs. H. Haryono, M.Si.",
+      "waktuPengajuan": "2026-11-02 09:15:00"
+    },
+    {
+      "id": "CUTI-2026-003",
+      "nip": "198309192008042001",
+      "namaPegawai": "Siti Nurjanah, S.A.P.",
+      "jabatan": "Kasubbag Kepegawaian dan Umum",
+      "unitKerja": "Subbag Kepegawaian & Umum",
+      "jenis": "Tahunan",
+      "tanggalMulai": "2026-10-12",
+      "tanggalSelesai": "2026-10-14",
+      "jumlahHariKerja": 3,
+      "alasan": "Keperluan pribadi",
+      "status": "Disetujui",
+      "catatanAtasan": "Pekerjaan administrasi kepegawaian aman terkendali.",
+      "catatanAdmin": "SK Cuti telah diterbitkan nomor 850/114/2026.",
+      "nomorEletter": "e-Letter/BPBD/CUTI/2026/X/071",
+      "pemroses": "Udy Cahyono, S.Sos., M.Acc.",
+      "waktuPengajuan": "2026-10-05 10:00:00",
+      "waktuPersetujuan": "2026-10-06 13:45:00"
+    }
+  ],
+  "dokumen": [
+    {
+      "id": "DOC-001",
+      "nip": "199102142019031006",
+      "namaPegawai": "Rudi Hartono, S.Kom.",
+      "jenisDokumen": "SK KGB Terakhir",
+      "nomorDokumen": "822.2/084/BPBD/KGB/2024",
+      "tanggalDokumen": "2024-10-25",
+      "namaBerkas": "SK_KGB_RUDI_HARTONO_2024.pdf",
+      "ukuran": "428 KB",
+      "hash": "sha256-a1b2c3d4e5f6789012345678abcdef",
+      "versi": 1,
+      "pengunggah": "rudi.hartono@kebumenkab.go.id",
+      "waktuUnggah": "2026-10-15 11:20:00",
+      "previewUrl": "https://images.unsplash.com/photo-1568667256549-094345857637?w=600&auto=format&fit=crop&q=80",
+      "nilaiTerbaca": {
+        "nomorSk": "822.2/084/BPBD/KGB/2024",
+        "tmt": "2024-11-20",
+        "pangkat": "Penata Muda Tk. I / III/b",
+        "gajiPokok": 3250000,
+        "masaKerja": "05 Tahun 08 Bulan",
+        "namaPegawai": "Rudi Hartono, S.Kom.",
+        "nip": "199102142019031006"
+      },
+      "confidenceScore": 0.98,
+      "statusVerifikasi": "Sesuai",
+      "catatanAdmin": "Dokumen asli terbitan BKPSDM Kebumen. TMT KGB 20 November 2024 cocok."
+    },
+    {
+      "id": "DOC-002",
+      "nip": "198511282009022004",
+      "namaPegawai": "Dian Permatasari, S.T.",
+      "jenisDokumen": "SK Pangkat Terakhir",
+      "nomorDokumen": "823.3/095/BKPSDM/2022",
+      "tanggalDokumen": "2022-11-15",
+      "namaBerkas": "SK_KP_DIAN_PERMATASARI_2022.pdf",
+      "ukuran": "612 KB",
+      "hash": "sha256-f9e8d7c6b5a41234567890abcdef",
+      "versi": 1,
+      "pengunggah": "dian.permatasari@kebumenkab.go.id",
+      "waktuUnggah": "2026-09-20 08:45:00",
+      "previewUrl": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&auto=format&fit=crop&q=80",
+      "nilaiTerbaca": {
+        "nomorSk": "823.3/095/BKPSDM/2022",
+        "tmt": "2022-12-01",
+        "pangkat": "Penata / III/c",
+        "masaKerja": "13 Tahun 02 Bulan",
+        "namaPegawai": "Dian Permatasari, S.T.",
+        "nip": "198511282009022004"
+      },
+      "confidenceScore": 0.96,
+      "statusVerifikasi": "Sesuai",
+      "catatanAdmin": "Sesuai dengan basis data SAPK/SIASN BKN."
+    },
+    {
+      "id": "DOC-003",
+      "nip": "197901102005011009",
+      "namaPegawai": "Joko Susanto, S.Sos.",
+      "jenisDokumen": "SK KGB Terakhir",
+      "nomorDokumen": "822.2/045/BPBD/KGB/2024",
+      "tanggalDokumen": "2024-07-10",
+      "namaBerkas": "SK_KGB_JOKO_SUSANTO_SCAN.pdf",
+      "ukuran": "520 KB",
+      "hash": "sha256-7890abcdef1234567890abcdef12",
+      "versi": 1,
+      "pengunggah": "siti.nurjanah@kebumenkab.go.id",
+      "waktuUnggah": "2026-10-28 14:10:00",
+      "previewUrl": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&auto=format&fit=crop&q=80",
+      "nilaiTerbaca": {
+        "nomorSk": "822.2/045/BPBD/KGB/2024",
+        "tmt": "2024-08-01",
+        "pangkat": "Penata Tk. I / III/d",
+        "gajiPokok": 4120000,
+        "namaPegawai": "Joko Susanto, S.Sos.",
+        "nip": "197901102005011009"
+      },
+      "confidenceScore": 0.94,
+      "statusVerifikasi": "Sesuai",
+      "catatanAdmin": "KGB berikutnya seharusnya 1 Agustus 2026 namun belum diusulkan (Terlambat)."
+    },
+    {
+      "id": "DOC-004",
+      "nip": "196812031992031007",
+      "namaPegawai": "Sudirman, S.IP.",
+      "jenisDokumen": "Akta Kelahiran",
+      "nomorDokumen": "474.1/1968/DISDUKCAPIL",
+      "tanggalDokumen": "1968-12-10",
+      "namaBerkas": "AKTA_LAHIR_SUDIRMAN.pdf",
+      "ukuran": "380 KB",
+      "hash": "sha256-bbccddeeff001122334455667788",
+      "versi": 1,
+      "pengunggah": "sudirman@kebumenkab.go.id",
+      "waktuUnggah": "2026-10-02 09:30:00",
+      "previewUrl": "https://images.unsplash.com/photo-1568667256549-094345857637?w=600&auto=format&fit=crop&q=80",
+      "nilaiTerbaca": {
+        "tanggalLahir": "1968-12-03",
+        "namaPegawai": "Sudirman",
+        "nomorSk": "474.1/1968/DISDUKCAPIL"
+      },
+      "confidenceScore": 0.99,
+      "statusVerifikasi": "Sesuai",
+      "catatanAdmin": "Bukti dasar penetapan BUP Pensiun 1 Januari 2027."
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "AUDIT-1793800058950-429",
+      "waktu": "2026-11-04 13:47:38",
+      "email": "orang.luar@gmail.com",
+      "peran": "Anonim",
+      "aksi": "LOGIN_FAILED",
+      "entitas": "Pengguna",
+      "rincian": "Percobaan login gagal: Email orang.luar@gmail.com belum terdaftar."
+    },
+    {
+      "id": "AUDIT-1793800054910-744",
+      "waktu": "2026-11-04 13:47:34",
+      "email": "kepegawaianbpbdkebumen@gmail.com",
+      "peran": "Admin Kepegawaian OPD",
+      "aksi": "LOGIN_SUCCESS",
+      "entitas": "Pengguna",
+      "rincian": "Login berhasil melalui verifikasi email (Admin Kepegawaian OPD)"
+    },
+    {
+      "id": "AUDIT-001",
+      "waktu": "2026-11-04 08:30:12",
+      "email": "siti.nurjanah@kebumenkab.go.id",
+      "peran": "Admin Kepegawaian OPD",
+      "aksi": "EWS_DAILY_TRIGGER",
+      "entitas": "Pengingat",
+      "rincian": "Mesin aturan harian dijalankan. Terdeteksi 1 KGB Terlambat (Joko Susanto), 1 KGB Kritis (Rudi Hartono), 1 KP Mendesak (Dian Permatasari)."
+    },
+    {
+      "id": "AUDIT-002",
+      "waktu": "2026-11-03 14:20:00",
+      "email": "rudi.hartono@kebumenkab.go.id",
+      "peran": "Pegawai",
+      "aksi": "SUBMIT_LEAVE",
+      "entitas": "Cuti",
+      "rincian": "Pengajuan cuti tahunan 3 hari kerja (10-12 Nov 2026) dengan lampiran e-Letter.",
+      "nilaiSesudah": {
+        "nip": "199102142019031006",
+        "jenis": "Tahunan",
+        "hari": 3
+      }
+    },
+    {
+      "id": "AUDIT-003",
+      "waktu": "2026-11-02 11:15:40",
+      "email": "haryono.bpbd@kebumenkab.go.id",
+      "peran": "Pimpinan",
+      "aksi": "APPROVE_LEAVE",
+      "entitas": "Cuti",
+      "rincian": "Verifikasi usulan cuti Dian Permatasari, S.T. disetujui atasan langsung."
+    }
+  ],
+  "aiLogs": [
+    {
+      "id": "AILOG-1793798552484-701",
+      "waktu": "2026-11-04 13:22:32",
+      "fitur": "AI-03 Chatbot Regulasi",
+      "model": "gemini-3.8-flash",
+      "promptRingkas": "Kapan jadwal KGB Rudi Hartono?",
+      "skorKeyakinan": 0.96,
+      "keputusanManusia": "Info Only",
+      "catatan": "Konsultasi regulasi kepegawaian berhasil dijawab."
+    },
+    {
+      "id": "AI-LOG-001",
+      "waktu": "2026-11-04 08:31:00",
+      "fitur": "AI-04 Deteksi Anomali",
+      "model": "gemini-3.8-flash",
+      "promptRingkas": "Pemeriksaan integritas riwayat kepegawaian 12 personil BPBD Kebumen",
+      "skorKeyakinan": 0.97,
+      "keputusanManusia": "Diterima",
+      "catatan": "Terdeteksi keterlambatan usulan KGB Joko Susanto lewat TMT 1 Agustus 2026."
+    },
+    {
+      "id": "AI-LOG-002",
+      "waktu": "2026-11-03 14:21:05",
+      "fitur": "AI-02 Validasi Cuti",
+      "model": "gemini-3.8-flash",
+      "promptRingkas": "Pemeriksaan e-Letter dan tumpang tindih cuti Rudi Hartono",
+      "skorKeyakinan": 0.98,
+      "keputusanManusia": "Diterima",
+      "catatan": "Dokumen cocok, kuota saldo 11 hari cukup untuk pemakaian 3 hari."
+    }
+  ]
+}
